@@ -1,0 +1,135 @@
+body {
+    background-color: #ebdfdf;
+}
+
+.container {
+    /*  background-color: rgb(121, 121, 212);*/
+    background: linear-gradient(135deg, #86aecc 37%, #86aecc 37%, #d4e4ef 100%);
+    color: white;
+    height: 80px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 7px;
+    margin-left: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+}
+
+#logohead {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 1160px;
+}
+
+.figura {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.figuraprincipal {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.formulario {
+    width: 500px;
+    height: 345px;
+    background-color: white;
+    margin-left: 795px;
+    margin-top: -350px;
+}
+
+#entrada {
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+#entrada1 {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#email {
+    padding-left: 30%;
+    font-size: 17px;
+}
+
+#email1 {
+    padding-left: 30%;
+    font-size: 17px;
+}
+
+#fname {
+    width: 350px;
+    height: 30px;
+    font-size: 17px;
+    border-color: rgb(88, 204, 240);
+    border-radius: 3px;
+    border-width: 5px;
+    border-style: groove;
+}
+
+#identifica {
+    color: red;
+    font-size: small;
+}
+
+#banner {
+    width: 55%;
+    height: 55%;
+}
+
+#fname2 {
+    width: 350px;
+    font-size: 17px;
+    height: 30px;
+}
+
+#identifica2 {
+    color: red;
+    font-size: small;
+}
+
+#botao {
+    margin-left: 190px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 2px;
+    background-color: #44a0a7;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    border-color: #44a0a7;
+    border-style: hidden;
+    ;
+}
+
+#perguntas {
+    padding-left: 25%;
+    padding-top: 20px;
+    /*    text-align: center;*/
+    font-size: 15px;
+}
+
+#criacao {
+    padding-left: 10%;
+    font-size: 15px;
+}
+
+.rodape {
+    width: 740px;
+    height: 30px;
+    background: linear-gradient(135deg, #86aecc 37%, #86aecc 37%, #d4e4ef 100%);
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding-left: 38%;
+    padding-top: 4px;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+}

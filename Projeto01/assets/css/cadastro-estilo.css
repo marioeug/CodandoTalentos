@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(233, 231, 231);
+}
+
+.formulario {
+    width: 610px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+h1 {
+    margin-left: 500;
+}
+
+#primeirocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -520px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#nome {
+    width: 570px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(88, 204, 240);
+    border-radius: 3px;
+    border-width: 4px;
+    border-style: groove;
+}
+
+#segundocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#email {
+    width: 570px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(223, 218, 218);
+    border-style: groove;
+}
+
+#terceirocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#matricula {
+    width: 570px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(223, 218, 218);
+    border-style: groove;
+}
+
+#quartocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#senha {
+    width: 570px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(223, 218, 218);
+    border-style: groove;
+}
+
+#quintocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#confirma {
+    width: 570px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(223, 218, 218);
+    border-style: groove;
+}
+
+#button {
+    margin-left: 420px;
+    margin-top: 30px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 2px;
+    background-color: #44a0a7;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    border-color: #44a0a7;
+    border-style: hidden;
+    font-family: 'Open Sans', sans-serif;
+}

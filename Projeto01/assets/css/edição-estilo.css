@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(233, 231, 231);
+}
+
+.formulario {
+    width: 610px;
+    height: 460px;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: white;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+h3 {
+    margin-left: 20px;
+    padding-top: 17px;
+}
+
+#primeirocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -390px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#nome {
+    width: 560px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(43, 247, 25);
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: groove;
+    font-weight: bold;
+    padding-left: 10px;
+    ;
+}
+
+#segundocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#email {
+    width: 560px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(223, 218, 218);
+    border-style: groove;
+    font-weight: bold;
+    background-color: rgb(224, 219, 219);
+    padding-left: 10px;
+}
+
+#terceirocampo {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 27px;
+    margin-left: 420px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#matricula {
+    width: 560px;
+    height: 30px;
+    font-size: 15px;
+    border-color: rgb(223, 218, 218);
+    border-style: groove;
+    font-weight: bold;
+    border-color: rgb(43, 247, 25);
+    padding-left: 10px;
+}
+
+#banner {
+    position: absolute;
+    margin-left: 530px;
+    margin-top: -30px;
+}
+
+button {
+    margin-left: 790px;
+    margin-right: -20px;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 15px;
+    padding-top: 2px;
+    background-color: rgb(61, 174, 240);
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #44a0a7;
+    border-style: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    ;
+}
+
+#banner1 {
+    position: absolute;
+    margin-left: -155px;
+    margin-top: 60px;
+}
+
+#erro {
+    position: absolute;
+    margin-left: 530px;
+    top: 130px;
+}
