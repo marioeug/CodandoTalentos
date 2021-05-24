@@ -97,15 +97,16 @@ body {
     margin-left: 190px;
     padding-left: 11px;
     padding-right: 11px;
-    padding-top: 2px;
+    padding-top: 11px;
     background-color: #44a0a7;
-    height: 40px;
+    height: 25px;
     border-radius: 3px;
     color: white;
     font-weight: bold;
     border-color: #44a0a7;
     border-style: hidden;
-    ;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 #perguntas {
