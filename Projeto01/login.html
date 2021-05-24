@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    <script type="text/javascript" src="./assets/js/login.js"></script> -->
 
 </head>
 
@@ -36,14 +37,14 @@
 
 
     <section class="formulario">
-        <form id="entrada">
+        <form id="entrada" name="form1">
 
             <label id="email" for="fname">E-mail:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Digite seu email"><br>
+            <input type="text" id="fname" name="fname5" onblur=validar() placeholder="Digite seu email"><br>
             <label id="identifica" for="fname1">Preencha este campo.</label>
         </form>
 
-        <form id="entrada1">
+        <form id="entrada1" name=form2>
 
             <label id="email1" for="fname">Senha:</label><br>
             <input type="text" id="fname2" name="fname" placeholder="Digite sua senha"><br>
