@@ -58,6 +58,7 @@ body {
 }
 
 #email1 {
+    margin-top: 50px;
     padding-left: 30%;
     font-size: 17px;
 }
@@ -94,12 +95,12 @@ body {
 }
 
 #botao {
-    margin-left: 190px;
+    margin-left: 150px;
     padding-left: 11px;
     padding-right: 11px;
-    padding-top: 11px;
+    padding-top: 10px;
     background-color: #44a0a7;
-    height: 25px;
+    height: 35px;
     border-radius: 3px;
     color: white;
     font-weight: bold;
@@ -109,10 +110,13 @@ body {
     font-size: 17px;
 }
 
+#botao:hover {
+    cursor: pointer;
+}
+
 #perguntas {
-    padding-left: 25%;
-    padding-top: 20px;
-    /*    text-align: center;*/
+    padding-left: 30%;
+    padding-top: 14px;
     font-size: 15px;
 }
 

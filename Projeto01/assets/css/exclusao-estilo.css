@@ -48,6 +48,10 @@ button {
     border-style: groove;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #banner1 {
     position: absolute;
     margin-left: -140px;

@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--    <script type="text/javascript" src="./assets/js/login.js"></script> -->
+    <script type="text/javascript" src="./assets/js/login.js"></script>
 
 </head>
 
@@ -38,21 +38,20 @@
 
     <section class="formulario">
         <form id="entrada" name="form1">
+            <p>
+                <label id="email" for="fname">E-mail:</label><br>
+                <input type="email" id="fname" required name="fname5" placeholder="Digite seu email"><br>
+                <label id="identifica" for="fname1">Preencha este campo.</label>
+            </p>
 
-            <label id="email" for="fname">E-mail:</label><br>
-            <input type="text" id="fname" name="fname5" onblur="validar()" placeholder="Digite seu email"><br>
-            <label id="identifica" for="fname1">Preencha este campo.</label>
+            <p>
+                <label id="email1" for="fname">Senha:</label><br>
+                <input type="password" id="fname2" required name="fname" placeholder="Digite sua senha"><br>
+                <label id="identifica2" for="fname2">Preencha este campo.</label>
+            </p>
+            <a id="botao" type="button" onclick="validarcampos()">Entrar</a>
+
         </form>
-
-        <form id="entrada1" name=form2>
-
-            <label id="email1" for="fname">Senha:</label><br>
-            <input type="text" id="fname2" name="fname" placeholder="Digite sua senha"><br>
-            <label id="identifica2" for="fname2">Preencha este campo.</label>
-        </form>
-
-        <!--       <a href="index.html"><button id="botao" type="submit">Entrar</button></a> -->
-        <a href="index.html" id="botao" type="submit">Entrar</a>
         <form id="perguntas">
 
             <label>Ainda não possui cadastro?</label><br>

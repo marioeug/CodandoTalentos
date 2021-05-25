@@ -86,7 +86,7 @@ h3 {
     margin-top: -30px;
 }
 
-button {
+#botao {
     margin-left: 790px;
     margin-right: -20px;
     margin-top: 50px;
@@ -103,6 +103,10 @@ button {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     ;
+}
+
+#botao:hover {
+    cursor: pointer;
 }
 
 #banner1 {

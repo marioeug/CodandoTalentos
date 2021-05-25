@@ -14,36 +14,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 </head>
 
 <body>
     <section class="formulario">
         <h1>Cadastro de Usuário</h1>
+
+        <form>
+            <p>
+                <label id="primeirocampo" for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
+            </p>
+
+            <p>
+                <label id="segundocampo" for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required><br>
+            </p>
+
+            <p>
+                <label id="terceirocampo" for="matricula">Matrícula:</label><br>
+                <input type="text" id="matricula" name="matricula" placeholder="Digite seu matricula" required><br>
+            </p>
+
+            <p>
+                <label id="quartocampo" for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Digite seu senha" required><br>
+            </p>
+
+            <p>
+                <label id="quintocampo" for="confirma">Confirmar Senha:</label><br>
+                <input type="password" id="confirma" name="confirma" placeholder="Confirme sua senha" required><br>
+            </p>
+            <!-- <a href="index.html"><input id="button" type="submit" value="Cadastrar"></a> -->
+
+            <button id="botao" type="submit" formaction="index.html">Cadastrar</button>
+
+        </form>
+
     </section>
-    <form id="primeirocampo" action="">
-        <label id="camponome" for="nome">Nome Completo:</label><br>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
-    </form>
-
-    <form id="segundocampo" action="">
-        <label id="campoemail" for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email" placeholder="Digite seu email" required="required"><br>
-    </form>
-
-    <form id="terceirocampo" action="">
-        <label id="campomatricula" for="matricula">Matrícula:</label><br>
-        <input type="text" id="matricula" name="matricula" placeholder="Digite seu matricula"><br>
-    </form>
-    <form id="quartocampo" action="">
-        <label id="camposenha" for="senha">Senha:</label><br>
-        <input type="password" id="senha" name="senha" placeholder="Digite seu senha" required><br>
-    </form>
-    <form id="quintocampo" action="">
-        <label id="campoconfirma" for="confirma">Confirmar Senha:</label><br>
-        <input type="password" id="confirma" name="confirma" placeholder="Confirme sua senha"><br>
-    </form>
-    <a href="index.html"><input id="button" type="submit" value="Cadastrar"></a>
-
 
 </body>
 
