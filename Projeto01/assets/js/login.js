@@ -16,3 +16,23 @@ function validarcampos() {
             "C:/Dados/GitHUB/CodandoTalentos/Projeto01/index.html");
     }
 }
+// function validarcampos() {
+//     const nomemail = document.getElementById("fname");
+//     const nomesenha = document.getElementById("fname2");
+//     if (nomemail.value === "" || nomemail.value === null) {
+//         Swal.fire({
+//             icon: "error",
+//             title: "Oops...",
+//             text: "Campo obrigatório. Preencha com o valor do email"
+//         });
+//     } else if (nomesenha.value === "" || nomesenha.value === null) {
+//         Swal.fire({
+//             icon: "error",
+//             title: "Oops...",
+//             text: "Campo obrigatório. Preencha com o valor da senha"
+//         });
+//     } else {
+//         return (window.location.href =
+//             "C:/Dados/GitHUB/CodandoTalentos/Projeto01/index.html");
+//     }
+// }
